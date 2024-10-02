@@ -45,18 +45,3 @@ Conda[Recommended]:
     `conda env create --name pdel --file=environment.yml`
 
 - Activate the environment with `conda activate pdel`. 
-
-OR 
-
-PIP:
-- If you already have a Python3 installation that you would like to use, do `pip3 install -r requirements.txt`.
-
-### **Learning density equation:**
-- Run `python3 learn_density_equation.py`. This should run for a few mins. 
-- After the script runs, the folder `data/PDElearn/density_equation/` will have the learning results. 
-- The file `pde_stability.txt` lists all the learned PDEs and the files `pde_stability_*.txt` will have the individual PDEs. 
-
-### **Learning velocity equation:**  
-- Do `python3 learn_velocity_equation.py`. This should run for a few mins.
-- After the script runs, the folder `data/PDElearn/velocity_equation/` would have the learning results. 
-- The file `pde_stability.txt` lists all the learned PDEs and the files `pde_stability_*.txt` will have the individual PDEs. 
